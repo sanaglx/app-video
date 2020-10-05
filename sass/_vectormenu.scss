@@ -1,0 +1,122 @@
+.nav-vector-open{
+    background: #66CD00;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0px 0px; 
+    .mob-kn-text{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #000000;
+        padding: 15px 0 12px;
+        display: inline-block;
+        }
+}
+
+
+
+.menu-vector {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+    background: #243140;
+    a{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        color: #E0E0E0;
+    }
+  }
+  .menu-vector.ot768.active-b {
+    display: none;
+  }
+  .menu-vector .main-menu > ul {
+
+    border-radius: 3px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .menu-vector .main-menu > ul > li {
+    border-bottom: 1px solid  #4C4F6E;
+    position: relative;
+  }
+  .menu-vector .main-menu__a {
+    line-height: 24px;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+  }
+  .menu-vector .main-menu__a:hover {
+    background: #fdeb04;
+    text-decoration: none;
+    color: #252525;
+  }
+  .menu-vector .main-menu__a.active {
+    background: #e0e0e0;
+    color: #999999;
+  }
+  
+  .menu-sub-vector {
+    position: absolute;
+    margin-top: -17%;
+    top: auto;
+    transform: scale3d(1, 0, 1);
+    z-index: 10;
+    width: 150vh;
+    left: 267px;
+  }
+  .menu-sub-vector.active {
+    //left: 267px;
+    transform: scale3d(1, 1, 1);
+    //right: -50%;
+    //transform: translate(81%, 1px);
+  }
+  .menu-sub-vector .vn-block {
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #243140;
+    padding: 25px 25px 25px 25px;
+    position: relative;
+    max-width: 890px;
+    margin: 0 20px 0 0;
+  }
+  .menu-sub-vector ul.submenu-a {
+    margin: 0 0 20px 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style: none;
+    max-height: 400px;
+    overflow: auto;
+  }
+  .menu-sub-vector ul.submenu-a > li {
+    max-width: 200px;
+  }
+  .menu-sub-vector ul.submenu-a > li > a {
+    font-size: 16px;
+    line-height: 120%;
+    /* color: #59c164; */
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .menu-sub-vector ul.submenu-b {
+    padding: 0 0 20px 0;
+    margin: 0 0 0 20px;
+  }
+  .menu-sub-vector ul.submenu-b li {
+    margin-bottom: 7px;
+  }
+  
+  .teni {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, .1);
+    z-index: 2;
+  }
