@@ -118,6 +118,6 @@ function sbros(){
 	$('.btn-main-search').removeClass("rubberBand");
 }
 
-
+$('.single-item').slick();
 
 
